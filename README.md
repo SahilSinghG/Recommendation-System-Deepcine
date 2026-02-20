@@ -6,7 +6,7 @@ The system analyzes movie features and learned representations to compute simila
 
 🚀 Live Demo
 
-🔹 Frontend (Streamlit): https://your-streamlit-url.streamlit.app
+🔹 Frontend (Streamlit): [https://your-streamlit-url.streamlit.app](https://recommendation-system-deepcine.streamlit.app/?view=home)
 
 🔹 Backend (FastAPI on Render): [https://your-render-backend-url.onrender.com](https://recommendation-system-deepcine.onrender.com)
 
