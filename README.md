@@ -1,10 +1,10 @@
-🎬 DeepCine – Neural Network Powered Movie Recommendation System
+# 🎬 DeepCine – Neural Network Powered Movie Recommendation System
 
 DeepCine is a production-ready AI-powered movie recommendation system that delivers personalized movie suggestions using a neural network–based recommendation engine. The system is built with a scalable FastAPI backend and an interactive Streamlit frontend, deployed on cloud platforms for real-time recommendations.
 
 The system analyzes movie features and learned representations to compute similarity scores and recommend relevant movies efficiently.
 
-🚀 Live Demo
+## 🚀 Live Demo
 
 🔹 Frontend (Streamlit): [https://your-streamlit-url.streamlit.app](https://recommendation-system-deepcine.streamlit.app/?view=home)
 
@@ -12,7 +12,7 @@ The system analyzes movie features and learned representations to compute simila
 
 🔹 API Docs: [https://your-render-backend-url.onrender.com/docs](https://recommendation-system-deepcine.onrender.com/docs)
 
-🧠 Features
+## 🧠 Features
 
 Neural network–based recommendation engine
 
@@ -30,7 +30,7 @@ High-performance similarity computation
 
 Production-ready modular architecture
 
-🏗️ System Architecture
+## 🏗️ System Architecture
 User
  ↓
 Streamlit Frontend (UI)
@@ -43,7 +43,7 @@ Similarity Computation
  ↓
 Recommended Movies Returned to User
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 Backend
 
 FastAPI
@@ -76,7 +76,7 @@ Dataset
 
 MovieLens Dataset
 
-🧠 Machine Learning Approach
+## 🧠 Machine Learning Approach
 
 DeepCine uses a neural network–based approach to learn latent feature representations of movies.
 
@@ -92,7 +92,7 @@ Top similar movies returned as recommendations
 
 This approach improves recommendation accuracy compared to traditional filtering methods.
 
-🔌 API Endpoints
+## 🔌 API Endpoints
 Get Home Feed
 GET /home
 
@@ -108,7 +108,7 @@ Returns similar recommended movies.
 API Documentation
 /docs
 
-⚙️ Local Installation
+## ⚙️ Local Installation
 Clone repository
 git clone https://github.com/SahilSinghG/Recommendation-System-Deepcine.git
 cd Recommendation-System-Deepcine
@@ -136,7 +136,7 @@ Frontend runs at:
 
 http://localhost:8501
 
-☁️ Deployment
+## ☁️ Deployment
 
 Backend deployed on:
 
@@ -146,7 +146,7 @@ Frontend deployed on:
 
 Streamlit Cloud
 
-📈 Future Improvements
+## 📈 Future Improvements
 
 User-based recommendation
 
@@ -160,13 +160,11 @@ Database integration
 
 Scalable distributed architecture
 
-👨‍💻 Author
+## 👨‍💻 Author
 
 Sahil Guleria
 
 GitHub: https://github.com/SahilSinghG
-
-LinkedIn: (add your LinkedIn)
 
 ⭐ Why this project is important
 
