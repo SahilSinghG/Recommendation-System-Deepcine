@@ -1,183 +1,118 @@
-# 🎬 DeepCine – Neural Network Powered Movie Recommendation System
+# 🎬 Movie Recommendation System (Deepcine)
 
-DeepCine is a production-ready AI-powered movie recommendation system that delivers personalized movie suggestions using a neural network–based recommendation engine. The system is built with a scalable FastAPI backend and an interactive Streamlit frontend, deployed on cloud platforms for real-time recommendations.
+A content-based movie recommendation system that suggests movies based on user preferences using TF-IDF vectorization and cosine similarity.
+The project also includes an interactive Streamlit web application that allows users to search for a movie and receive similar movie recommendations instantly.
 
-The system analyzes movie features and learned representations to compute similarity scores and recommend relevant movies efficiently.
+## 📌 Project Overview
 
-## 🚀 Live Demo
+Recommendation systems are widely used by modern platforms to personalize user experiences. This project demonstrates how machine learning techniques can be used to analyze movie metadata and generate recommendations based on content similarity.
 
-🔹 Frontend (Streamlit): [https://your-streamlit-url.streamlit.app](https://recommendation-system-deepcine.streamlit.app/?view=home)
+The system analyzes movie attributes such as genres, keywords, and descriptions to compute similarity scores and recommend movies that closely match the user's selected movie.
 
-🔹 Backend (FastAPI on Render): [https://your-render-backend-url.onrender.com](https://recommendation-system-deepcine.onrender.com)
+## 🚀 Features
 
-🔹 API Docs: [https://your-render-backend-url.onrender.com/docs](https://recommendation-system-deepcine.onrender.com/docs)
-
-## 🧠 Features
-
-Neural network–based recommendation engine
-
-Real-time personalized movie recommendations
-
-Scalable FastAPI backend
-
-Interactive Streamlit frontend
-
-REST API architecture
-
-Cloud deployment (Render + Streamlit Cloud)
-
-High-performance similarity computation
-
-Production-ready modular architecture
-
-## 🏗️ System Architecture
-User
- ↓
-Streamlit Frontend (UI)
- ↓
-FastAPI Backend (Render)
- ↓
-Neural Network Recommendation Engine
- ↓
-Similarity Computation
- ↓
-Recommended Movies Returned to User
-
-## 🛠️ Tech Stack
-Backend
-
-FastAPI
-
-Python 3.11
-
-Uvicorn
-
-Frontend
-
-Streamlit
-
-Machine Learning
-
-Neural Networks
-
-Scikit-learn
-
-NumPy
-
-Pandas
-
-Deployment
-
-Render (Backend Deployment)
-
-Streamlit Cloud (Frontend Deployment)
-
-Dataset
-
-MovieLens Dataset
+• Content-based movie recommendation system
+• Interactive user interface built with Streamlit
+• TF-IDF vectorization for feature extraction
+• Cosine similarity for computing movie similarity
+• Fast recommendations using precomputed similarity matrices
+• Simple and user-friendly interface
 
 ## 🧠 Machine Learning Approach
 
-DeepCine uses a neural network–based approach to learn latent feature representations of movies.
+The recommendation engine follows these steps:
 
-Steps involved:
+1. Data preprocessing
+2. Clean movie metadata
+3. Combine relevant textual features
+4. Feature extraction
+5. TF-IDF vectorization is applied to convert text data into numerical vectors
+6. Similarity computation
+7. Cosine similarity is used to measure similarity between movie vectors
+8. Recommendation generation
+9. When a user selects a movie, the system returns the most similar movies based on similarity scores
 
-Data preprocessing and feature extraction
+# 🗂 Project Structure
 
-Neural network learns movie embeddings
+Movie-Recommendation-System
+│
+├── app.py                  # Streamlit application
+├── main.py                 # Core recommendation logic
+├── Movies.ipynb            # Model development notebook
+├── movies_metadata.csv     # Dataset used for training
+├── df.pkl                  # Processed movie dataset
+├── indices.pkl             # Movie index mapping
+├── tfidf.pkl               # TF-IDF vectorizer
+├── tfidf_matrix.pkl        # TF-IDF feature matrix
+├── requirements.txt        # Project dependencies
+├── runtime.txt             # Python runtime version
+└── README.md               # Project documentation
+📊 Dataset
 
-Similarity scores computed between movie embeddings
+The dataset contains movie metadata including:
 
-Top similar movies returned as recommendations
+• Movie titles
+• Genres
+• Overview / descriptions
+• Keywords
 
-This approach improves recommendation accuracy compared to traditional filtering methods.
+This metadata is used to compute similarity between movies and generate recommendations.
 
-## 🔌 API Endpoints
-Get Home Feed
-GET /home
+## ⚙️ Installation
 
+Clone the repository
 
-Returns trending or popular movies.
+git clone https://github.com/SahilSinghG/Recommendation-System-Deepcine
+cd movie-recommendation-system
 
-Get Recommendations
-GET /recommend?movie_name=Inception
+## Install dependencies
 
-
-Returns similar recommended movies.
-
-API Documentation
-/docs
-
-## ⚙️ Local Installation
-Clone repository
-git clone https://github.com/SahilSinghG/Recommendation-System-Deepcine.git
-cd Recommendation-System-Deepcine
-
-Create virtual environment
-python -m venv venv
-venv\Scripts\activate
-
-Install dependencies
 pip install -r requirements.txt
 
-Run backend
+▶️ Running the Application
+
+Start Render:
+
 uvicorn main:app --reload
 
+then start the Streamlit app:
 
-Backend runs at:
-
-http://127.0.0.1:8000
-
-Run frontend
 streamlit run app.py
 
-
-Frontend runs at:
+Then open your browser at:
 
 http://localhost:8501
 
-## ☁️ Deployment
+## 💻 Tech Stack
 
-Backend deployed on:
+Programming Language
 
-Render using FastAPI
+Python
 
-Frontend deployed on:
+Libraries
 
-Streamlit Cloud
+Pandas
+NumPy
+Scikit-learn
+Streamlit
+
+Machine Learning Techniques:
+
+TF-IDF Vectorization
+Cosine Similarity
+Content-Based Recommendation
 
 ## 📈 Future Improvements
 
-User-based recommendation
-
-Hybrid recommendation system
-
-Deep learning optimization
-
-Docker containerization
-
-Database integration
-
-Scalable distributed architecture
+• Hybrid recommendation systems (content + collaborative filtering)
+• Deep learning based recommendations
+• User preference learning
+• Improved UI/UX
 
 ## 👨‍💻 Author
 
 Sahil Guleria
 
-GitHub: https://github.com/SahilSinghG
+Data Science | Machine Learning | Python
 
-⭐ Why this project is important
-
-This project demonstrates:
-
-Real-world ML system design
-
-Neural network–based recommendation engine
-
-Backend API development
-
-Frontend integration
-
-Cloud deployment
-
-Production-level architecture
+LinkedIn: [[LinkedIn]](https://www.linkedin.com/in/sahil-guleria-4b22511bb/)
