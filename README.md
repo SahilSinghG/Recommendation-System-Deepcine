@@ -64,13 +64,9 @@ Start Render:
 
 uvicorn main:app --reload
 
-<img width="1100" height="827" alt="image" src="https://github.com/user-attachments/assets/e9580883-4e04-462d-811b-770e6846ae2a" />
-
 then start the Streamlit app:
 
 streamlit run app.py
-
-<img width="807" height="772" alt="image" src="https://github.com/user-attachments/assets/a5d72b1e-0f23-45cf-86cc-fa1d2e7b451b" />
 
 Then open your browser at:
 
@@ -94,6 +90,10 @@ Machine Learning Techniques:
 TF-IDF Vectorization
 Cosine Similarity
 Content-Based Recommendation
+
+<img width="1100" height="827" alt="image" src="https://github.com/user-attachments/assets/e9580883-4e04-462d-811b-770e6846ae2a" />
+
+<img width="807" height="772" alt="image" src="https://github.com/user-attachments/assets/a5d72b1e-0f23-45cf-86cc-fa1d2e7b451b" />
 
 <img width="402" height="802" alt="image" src="https://github.com/user-attachments/assets/26dc797a-9222-426f-8f50-2a6bf667f76f" />
 
