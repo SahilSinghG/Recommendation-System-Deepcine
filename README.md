@@ -34,20 +34,9 @@ The recommendation engine follows these steps:
 
 # 🗂 Project Structure
 
-Movie-Recommendation-System
-│
-├── app.py                  # Streamlit application
-├── main.py                 # Core recommendation logic
-├── Movies.ipynb            # Model development notebook
-├── movies_metadata.csv     # Dataset used for training
-├── df.pkl                  # Processed movie dataset
-├── indices.pkl             # Movie index mapping
-├── tfidf.pkl               # TF-IDF vectorizer
-├── tfidf_matrix.pkl        # TF-IDF feature matrix
-├── requirements.txt        # Project dependencies
-├── runtime.txt             # Python runtime version
-└── README.md               # Project documentation
-📊 Dataset
+<img width="816" height="342" alt="image" src="https://github.com/user-attachments/assets/72b41983-e96c-4463-9221-b0bdbfcd549c" />
+
+## 📊 Dataset
 
 The dataset contains movie metadata including:
 
@@ -75,9 +64,13 @@ Start Render:
 
 uvicorn main:app --reload
 
+<img width="1100" height="827" alt="image" src="https://github.com/user-attachments/assets/e9580883-4e04-462d-811b-770e6846ae2a" />
+
 then start the Streamlit app:
 
 streamlit run app.py
+
+<img width="807" height="772" alt="image" src="https://github.com/user-attachments/assets/a5d72b1e-0f23-45cf-86cc-fa1d2e7b451b" />
 
 Then open your browser at:
 
@@ -101,6 +94,8 @@ Machine Learning Techniques:
 TF-IDF Vectorization
 Cosine Similarity
 Content-Based Recommendation
+
+<img width="402" height="802" alt="image" src="https://github.com/user-attachments/assets/26dc797a-9222-426f-8f50-2a6bf667f76f" />
 
 ## 📈 Future Improvements
 
