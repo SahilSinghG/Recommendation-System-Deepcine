@@ -12,10 +12,15 @@ The system analyzes movie attributes such as genres, keywords, and descriptions 
 ## 🚀 Features
 
 • Content-based movie recommendation system
+
 • Interactive user interface built with Streamlit
+
 • TF-IDF vectorization for feature extraction
+
 • Cosine similarity for computing movie similarity
+
 • Fast recommendations using precomputed similarity matrices
+
 • Simple and user-friendly interface
 
 ## 🧠 Machine Learning Approach
@@ -41,8 +46,11 @@ The recommendation engine follows these steps:
 The dataset contains movie metadata including:
 
 • Movie titles
+
 • Genres
+
 • Overview / descriptions
+
 • Keywords
 
 This metadata is used to compute similarity between movies and generate recommendations.
@@ -100,8 +108,11 @@ Content-Based Recommendation
 ## 📈 Future Improvements
 
 • Hybrid recommendation systems (content + collaborative filtering)
+
 • Deep learning based recommendations
+
 • User preference learning
+
 • Improved UI/UX
 
 ## 👨‍💻 Author
